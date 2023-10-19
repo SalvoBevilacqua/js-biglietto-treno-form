@@ -1,4 +1,4 @@
-###Esercizio - calcolo del prezzo del biglietto del treno
+### Esercizio - calcolo del prezzo del biglietto del treno
 
 Descrizione: Scrivere un programma che chieda all’utente:
 - Il numero di chilometri da percorrere
