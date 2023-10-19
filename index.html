@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>calcolo del prezzo del biglietto del treno</title>
+        <!-- Custom style -->
+        <link rel="stylesheet" href="style.css">   
+    </head>
+
+    <body>
+        <div class="input_item">
+            <label for="nkm">Inserire il numero di km da percorrere</label>
+            <input type="text" id="nkm">
+        </div>
+
+        <div class="input_item">
+            <label for="user_age">Inserire l'età</label>
+            <input type="text" id="user_age">
+        </div>
+
+        <div class="buttons">
+            <button id="send">Prosegui!</button>
+        </div>
+
+        <div class="result_section hidden">
+            <h2>Salve, il prezzo del suo biglietto è di:</h2>
+            <h2 id="result"></h2>
+        </div>
+
+	<script src="script.js"></script>
+    </body>
+</html>
